@@ -6,6 +6,7 @@ RSpec.describe ParsePeopleByDollar do
 
   describe 'convert the input string to array' do
     it 'parses dollar input file and outputs array of each people' do
+      
       people_array = parse_people.convert_to_array
       expect(people_array).to eq [
                                      'city $ birthdate $ last_name $ first_name',
